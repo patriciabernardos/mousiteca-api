@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "cors": "^2.8.5",
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
     "pg": "^8.16.0",
@@ -8,5 +9,25 @@
   },
   "devDependencies": {
     "nodemon": "^3.1.10"
-  }
+  },
+  "name": "mousiteca-api",
+  "version": "1.0.0",
+  "description": "API desarrollada en Node.js, Express y PostgreSQL para gestionar la biblioteca musical personal de Mousiteca.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+      "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patriciabernardos/mousiteca-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/patriciabernardos/mousiteca-api/issues"
+  },
+  "homepage": "https://github.com/patriciabernardos/mousiteca-api#readme"
 }
